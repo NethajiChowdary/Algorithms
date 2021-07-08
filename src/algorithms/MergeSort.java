@@ -26,7 +26,7 @@ public class MergeSort
         int rightSize = values.length - median;
 
         // construct the left array.
-        T[] left = (T[]) Array.newInstance(clazz, leftSize);
+        T[] left =  (T[]) Array.newInstance(clazz, leftSize);
         for (int l = 0; l < leftSize; ++l) 
         {
             left[l] = values[l];
